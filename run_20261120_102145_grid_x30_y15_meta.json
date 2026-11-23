@@ -1,0 +1,92 @@
+{
+  "started": "2026-11-20T10:21:45.566",
+  "x_angle_deg": 30.0,
+  "y_angle_deg": 15.0,
+  "note": "grid",
+  "thermal": false,
+  "sim": false,
+  "ports": {
+    "arduino": "COM11",
+    "balance": "COM12",
+    "si155": "10.0.0.55"
+  },
+  "balance": {
+    "model": "continuous-output balance",
+    "serial_no": "",
+    "protocol": "stream",
+    "readability_g": 0.1,
+    "software_tare_g": 0.0,
+    "stable_rule": "max(0.2 g, 0.2% of reading) over 1.0 s"
+  },
+  "si155": {
+    "ip": "10.0.0.55",
+    "serial_no": "HIAHHH",
+    "client": "direct TCP (Si155Client)"
+  },
+  "config": {
+    "MICROSTEPS": 8,
+    "FULL_STEPS_PER_REV": 200,
+    "STEPS_PER_REV": 1600,
+    "SLIDE_TOTAL_REV": 20,
+    "TRAVEL_MIN_REV": -0.5,
+    "TRAVEL_MAX_REV": 1.5,
+    "LIFT_REV": 0.5,
+    "LEAD_MM_PER_REV": null,
+    "CONTACT_STEP_REV": 0.075,
+    "TOUCH_G": 1.0,
+    "TOUCH_SEARCH_STEP_REV": 0.02,
+    "TOUCH_SEARCH_MAX_REV": 3.0,
+    "STEP_PERIOD_US": 500,
+    "MAX_LOAD_G": 40.0,
+    "MAX_STEPS_PER_RUN": 200,
+    "LEVER_ARM_MM": 15.0,
+    "BACKLASH_REV": 0.2,
+    "THERMAL_ROWS": 60,
+    "THERMAL_INTERVAL_S": 5.0,
+    "BALANCE_PORT": "COM12",
+    "BALANCE_BAUD": 9600,
+    "BALANCE_BYTESIZE": 8,
+    "BALANCE_PARITY": "N",
+    "BALANCE_STOPBITS": 1,
+    "BALANCE_XONXOFF": false,
+    "BALANCE_READABILITY_G": 0.1,
+    "SETTLE_S": 2.0,
+    "STABLE_TIMEOUT_S": 8.0,
+    "TARE_TIMEOUT_S": 15.0,
+    "TARE_AT_START": true,
+    "BALANCE_PROTOCOL": "auto",
+    "STABLE_WINDOW_S": 1.0,
+    "STABLE_BAND_G": 0.2,
+    "STABLE_BAND_FRAC": 0.002,
+    "SI155_IP": "10.0.0.55",
+    "PEAK_SAMPLES": 50,
+    "SI155_CHANNELS": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "SI155_TIMEOUT_S": 2.0,
+    "SI155_ATTEMPTS": 3,
+    "FIBRE_MAP": {
+      "f1": [
+        1,
+        0
+      ],
+      "f2": [
+        2,
+        0
+      ],
+      "f3": [
+        3,
+        0
+      ]
+    },
+    "LOG_RETURN_PATH": true
+  },
+  "finished": "2026-11-20T10:24:04.255",
+  "rows": 43,
+  "stop_reason": "full_depth",
+  "final_position_steps": -800,
+  "y_angle_corrected": "y_angle_deg changed from 22.5 to 15.0 on 2026-11-20 (holder was at 15 deg; 22.5 was typed)"
+}
