@@ -1,0 +1,154 @@
+Run files found: 119, used: 118, skipped: 1
+  skipped run_20261120_124013_grid_x0_y60: aborted after 4 rows (Ctrl-C or error)
+Runs used: 118, rows: 4985, fibres: ['f1_nm', 'f2_nm', 'f3_nm']
+Blocks: axial=3, grid=91, intermediate=4, ref=7, repeat=12, thermal=1
+
+
+Zero return (pm): last zero-load row minus first, and the largest loaded shift
+  run_20261119_213036_ref_x90_y45          end-start [-117, -51, 275]  peak [274, -44, -202]  (100%)   <-- did not recover
+  run_20261119_213327_grid_x90_y45         end-start [3, 1, -6]  peak [385, 44, -511]  (1%)
+  run_20261119_213801_grid_x120_y45        end-start [-21, -63, 122]  peak [-259, 536, -394]  (23%)
+  run_20261119_214133_grid_x150_y45        end-start [7, -219, 258]  peak [-431, 467, -313]  (55%)   <-- did not recover
+  run_20261119_214528_grid_x180_y45        end-start [158, -205, -4]  peak [-907, 530, -164]  (23%)
+  run_20261119_214824_grid_x210_y45        end-start [260, -39, -227]  peak [-572, 505, 202]  (45%)   <-- did not recover
+  run_20261119_215218_grid_x240_y45        end-start [273, -96, -193]  peak [-569, 180, 581]  (47%)   <-- did not recover
+  run_20261119_215622_grid_x270_y45        end-start [49, 146, -118]  peak [-507, -337, 712]  (20%)
+  run_20261119_220004_grid_x300_y45        end-start [-102, 186, -65]  peak [-317, -619, 760]  (24%)
+  run_20261119_220613_grid_x330_y45        end-start [9, -18, -4]  peak [227, -961, 633]  (2%)
+  run_20261119_221003_grid_x0_y45          end-start [-141, 11, 42]  peak [481, -941, 175]  (15%)
+  run_20261119_221317_grid_x30_y45         end-start [-217, 33, 425]  peak [649, -747, -2]  (57%)   <-- did not recover
+  run_20261119_221708_grid_x60_y45         end-start [-85, -17, 247]  peak [714, -584, -265]  (35%)   <-- did not recover
+  run_20261119_222147_ref_x90_y45          end-start [-88, -24, 39]  peak [340, -50, -468]  (19%)
+  run_20261119_223131_grid_x0_y30          end-start [-542, 506, -15]  peak [165, -359, 162]  (151%)   <-- did not recover
+  run_20261119_223517_grid_x30_y30         end-start [-210, 202, 144]  peak [664, -505, -287]  (32%)   <-- did not recover
+  run_20261119_223935_grid_x60_y30         end-start [-71, -17, 178]  peak [753, -461, -270]  (24%)
+  run_20261119_224354_grid_x90_y30         end-start [-133, -23, 188]  peak [382, -16, -258]  (49%)   <-- did not recover
+  run_20261119_224730_grid_x120_y30        end-start [63, -112, 7]  peak [81, 425, -475]  (24%)
+  run_20261119_225050_grid_x150_y30        end-start [118, -175, 17]  peak [-258, 518, -546]  (32%)   <-- did not recover
+  run_20261119_225411_grid_x180_y30        end-start [321, -19, -55]  peak [-330, 679, -329]  (47%)   <-- did not recover
+  run_20261119_225806_grid_x210_y30        end-start [225, -30, -265]  peak [-587, 584, 128]  (45%)   <-- did not recover
+  run_20261119_230158_grid_x240_y30        end-start [310, -61, -353]  peak [-497, 102, 511]  (69%)   <-- did not recover
+  run_20261119_230502_grid_x270_y30        end-start [42, 123, -54]  peak [-559, -317, 831]  (15%)
+  run_20261119_230751_grid_x300_y30        end-start [-95, 173, -32]  peak [-241, -604, 847]  (20%)
+  run_20261119_231034_grid_x330_y30        end-start [-206, 17, 7]  peak [246, -908, 746]  (23%)
+  run_20261120_094659_ref_x90_y45          end-start [-46, -106, 458]  peak [265, -51, 24]  (173%)   <-- did not recover
+  run_20261120_101514_grid_x0_y15          end-start [-333, 92, -96]  peak [490, -872, 47]  (38%)   <-- did not recover
+  run_20261120_102145_grid_x30_y15         end-start [-64, 6, 62]  peak [780, -688, -408]  (8%)
+  run_20261120_102754_grid_x60_y15         end-start [-18, 14, 45]  peak [799, -510, -392]  (6%)
+  run_20261120_103150_grid_x90_y15         end-start [-8, -4, -23]  peak [578, -52, -441]  (4%)
+  run_20261120_103453_grid_x120_y15        end-start [166, -380, 16]  peak [295, 129, -438]  (87%)   <-- did not recover
+  run_20261120_104654_grid_x150_y15        end-start [134, -117, -1]  peak [-211, 539, -442]  (25%)
+  run_20261120_105012_grid_x180_y15        end-start [330, -10, -61]  peak [-351, 649, -374]  (51%)   <-- did not recover
+  run_20261120_105506_grid_x210_y15        end-start [106, -8, -237]  peak [-674, 616, 159]  (35%)   <-- did not recover
+  run_20261120_105805_grid_x240_y15        end-start [49, 53, -348]  peak [-738, 418, 450]  (47%)   <-- did not recover
+  run_20261120_110106_grid_x270_y15        end-start [33, 291, -38]  peak [-642, -110, 812]  (36%)   <-- did not recover
+  run_20261120_110354_grid_x300_y15        end-start [-124, 146, -25]  peak [-318, -565, 827]  (18%)
+  run_20261120_110642_grid_x330_y15        end-start [-205, 28, -12]  peak [210, -846, 749]  (24%)
+  run_20261120_113029_axial_x0_y0          end-start [-3, 2, 0]  peak [-343, -313, -152]  (1%)
+  run_20261120_113534_axial_x120_y0        end-start [-1, 39, -5]  peak [-340, -265, -188]  (12%)
+  run_20261120_113848_axial_x240_y0        end-start [12, 5, -6]  peak [-361, -322, -206]  (3%)
+  run_20261120_114429_ref_x90_y45          end-start [-185, -60, 323]  peak [121, -35, -149]  (218%)   <-- did not recover
+  run_20261120_124149_grid_x0_y60          end-start [-419, 259, 24]  peak [213, -471, 52]  (89%)   <-- did not recover
+  run_20261120_124420_grid_x30_y60         end-start [-71, -4, 302]  peak [639, -613, -133]  (47%)   <-- did not recover
+  run_20261120_124713_grid_x60_y60         end-start [-95, 12, 194]  peak [649, -519, -395]  (30%)   <-- did not recover
+  run_20261120_124928_grid_x90_y60         end-start [-21, -21, 4]  peak [411, -206, -527]  (4%)
+  run_20261120_125200_grid_x120_y60        end-start [173, -355, 19]  peak [-32, 116, -532]  (67%)   <-- did not recover
+  run_20261120_125459_grid_x150_y60        end-start [180, -133, 14]  peak [-169, 463, -564]  (32%)   <-- did not recover
+  run_20261120_125725_grid_x180_y60        end-start [386, -31, -77]  peak [-319, 590, -397]  (65%)   <-- did not recover
+  run_20261120_130011_grid_x210_y60        end-start [16, -22, -161]  peak [-762, 342, 92]  (21%)
+  run_20261120_130323_grid_x240_y60        end-start [15, 39, -262]  peak [-779, 128, 308]  (34%)   <-- did not recover
+  run_20261120_130558_grid_x270_y60        end-start [118, 215, -279]  peak [-562, -267, 470]  (50%)   <-- did not recover
+  run_20261120_130922_grid_x300_y60        end-start [-28, 94, -32]  peak [-201, -513, 714]  (13%)
+  run_20261120_131223_grid_x330_y60        end-start [-206, 484, -264]  peak [19, -183, 74]  (265%)   <-- did not recover
+  run_20261120_164905_grid_x0_y75          end-start [-97, 31, 14]  peak [562, -657, 8]  (15%)
+  run_20261120_165209_grid_x30_y75         end-start [-584, 327, 418]  peak [144, -243, -42]  (240%)   <-- did not recover
+  run_20261120_165633_grid_x60_y75         end-start [-27, -18, 131]  peak [748, -313, -366]  (18%)
+  run_20261120_170007_grid_x90_y75         end-start [-22, -3, 7]  peak [512, 49, -473]  (4%)
+  run_20261120_170239_grid_x120_y75        end-start [139, -404, 21]  peak [221, 100, -494]  (82%)   <-- did not recover
+  run_20261120_170515_grid_x150_y75        end-start [134, -69, 1]  peak [-275, 514, -553]  (24%)
+  run_20261120_170811_grid_x180_y75        end-start [320, -24, -58]  peak [-327, 586, -270]  (55%)   <-- did not recover
+  run_20261120_171307_grid_x210_y75        end-start [333, -319, -94]  peak [-411, 188, 376]  (81%)   <-- did not recover
+  run_20261120_171701_grid_x240_y75        end-start [228, -8, -571]  peak [-507, 175, 106]  (113%)   <-- did not recover
+  run_20261120_171947_grid_x270_y75        end-start [18, 108, -51]  peak [-530, -305, 691]  (16%)
+  run_20261120_172333_grid_x300_y75        end-start [-8, 329, -487]  peak [-160, -288, 170]  (169%)   <-- did not recover
+  run_20261120_172627_grid_x330_y75        end-start [-100, 41, -6]  peak [133, -672, 531]  (15%)
+  run_20261120_173436_grid_x0_y90          end-start [-376, 3, 118]  peak [247, -496, 123]  (76%)   <-- did not recover
+  run_20261120_173724_grid_x30_y90         end-start [-217, 171, 219]  peak [463, -292, -183]  (47%)   <-- did not recover
+  run_20261120_174023_grid_x60_y90         end-start [-199, 36, 228]  peak [512, -171, -304]  (44%)   <-- did not recover
+  run_20261120_174333_grid_x90_y90         end-start [-2, -54, 18]  peak [513, 135, -486]  (11%)
+  run_20261120_174706_grid_x120_y90        end-start [10, -102, 59]  peak [109, 438, -469]  (22%)
+  run_20261120_175026_grid_x150_y90        end-start [42, -209, 241]  peak [-231, 399, -245]  (61%)   <-- did not recover
+  run_20261120_175309_grid_x180_y90        end-start [135, -339, 10]  peak [-426, 261, 92]  (80%)   <-- did not recover
+  run_20261120_175705_grid_x210_y90        end-start [203, -109, -376]  peak [-487, 424, 88]  (77%)   <-- did not recover
+  run_20261120_175957_grid_x240_y90        end-start [189, -47, -551]  peak [-475, 257, 172]  (116%)   <-- did not recover
+  run_20261120_180242_grid_x270_y90        end-start [78, 124, -573]  peak [-283, 22, 130]  (202%)   <-- did not recover
+  run_20261120_180525_grid_x300_y90        end-start [32, 218, -391]  peak [-46, -223, 236]  (166%)   <-- did not recover
+  run_20261120_180804_grid_x330_y90        end-start [-311, 137, 0]  peak [135, -459, 475]  (66%)   <-- did not recover
+  run_20261120_181656_ref_x90_y45          end-start [-113, -101, 437]  peak [205, -222, -9]  (197%)   <-- did not recover
+  run_20261121_181545_ref_x90_y45          end-start [-233, 63, 392]  peak [85, -72, -44]  (459%)   <-- did not recover
+  run_20261121_182200_repeat_x180_y15      end-start [189, -334, -23]  peak [-425, 272, -307]  (79%)   <-- did not recover
+  run_20261121_182651_repeat_x240_y15      end-start [52, 65, -593]  peak [-656, 443, 153]  (90%)   <-- did not recover
+  run_20261121_183327_repeat_x120_y30      end-start [-139, -99, 575]  peak [-228, 442, 116]  (130%)   <-- did not recover
+  run_20261121_183610_repeat_x180_y30      end-start [74, -123, 17]  peak [-577, 463, -94]  (21%)
+  run_20261121_184113_repeat_x270_y45      end-start [-18, 322, -258]  peak [-569, -29, 462]  (57%)   <-- did not recover
+  run_20261121_184359_repeat_x210_y45      end-start [66, -247, 1]  peak [-465, 93, 407]  (53%)   <-- did not recover
+  run_20261121_184845_repeat_x240_y60      end-start [22, -11, -11]  peak [-752, 77, 421]  (3%)
+  run_20261121_185245_repeat_x330_y60      end-start [-184, 384, -37]  peak [-66, -220, 347]  (111%)   <-- did not recover
+  run_20261121_185700_repeat_x0_y75        end-start [-367, 17, 200]  peak [182, -561, 43]  (65%)   <-- did not recover
+  run_20261121_185946_repeat_x270_y75      end-start [188, 197, -257]  peak [-404, -200, 430]  (60%)   <-- did not recover
+  run_20261121_190515_repeat_x90_y90       end-start [-459, -69, 598]  peak [126, 112, 82]  (475%)   <-- did not recover
+  run_20261121_190805_repeat_x60_y90       end-start [-451, 83, 412]  peak [237, -42, -121]  (191%)   <-- did not recover
+  run_20261121_191226_ref_x90_y45          end-start [-7, -15, 5]  peak [260, -111, -465]  (3%)
+  run_20261121_193237_intermediate_x45_y60 end-start [-592, 392, 333]  peak [108, -173, -152]  (343%)   <-- did not recover
+  run_20261121_193535_intermediate_x315_y60 end-start [-50, 246, -279]  peak [-87, -470, 289]  (59%)   <-- did not recover
+  run_20261121_194211_intermediate_x135_y30 end-start [56, -490, 513]  peak [-203, 68, 35]  (253%)   <-- did not recover
+  run_20261121_194637_intermediate_x225_y30 end-start [38, -2, -187]  peak [-619, 469, 448]  (30%)   <-- did not recover
+  run_20261122_095745_grid_x90_y30         end-start [-203, -34, 272]  peak [135, -25, -156]  (174%)   <-- did not recover
+  run_20261122_100026_grid_x120_y30        end-start [35, -83, 44]  peak [-11, 434, -387]  (19%)
+  run_20261122_100356_grid_x135_y30        end-start [69, -44, 18]  peak [-128, 526, -437]  (13%)
+  run_20261122_100957_grid_x135_y15        end-start [37, -4, -6]  peak [-182, 594, -318]  (6%)
+  run_20261122_101308_grid_x120_y15        end-start [14, -25, -6]  peak [-64, 550, -329]  (5%)
+  run_20261122_101607_grid_x90_y15         end-start [-125, 37, 1]  peak [285, 119, -398]  (31%)   <-- did not recover
+  run_20261122_102007_grid_x90_y45         end-start [-17, 56, 18]  peak [292, -51, -434]  (13%)
+  run_20261122_102303_grid_x120_y45        end-start [48, -74, 13]  peak [-111, 365, -470]  (16%)
+  run_20261122_102547_grid_x135_y45        end-start [46, -141, 153]  peak [-416, 440, -366]  (35%)   <-- did not recover
+  run_20261122_103039_grid_x135_y60        end-start [-7, -23, 16]  peak [-26, 530, -443]  (4%)
+  run_20261122_103306_grid_x120_y60        end-start [18, -395, 452]  peak [-106, 92, -57]  (428%)   <-- did not recover
+  run_20261122_103523_grid_x90_y60         end-start [-95, 56, 21]  peak [349, 6, -469]  (20%)
+  run_20261122_103830_grid_x0_y60          end-start [-162, 374, -38]  peak [444, -259, -164]  (84%)   <-- did not recover
+  run_20261122_104143_grid_x330_y60        end-start [-156, 286, -24]  peak [-39, -275, 385]  (74%)   <-- did not recover
+  run_20261122_104508_grid_x30_y75         end-start [-269, 3, 387]  peak [364, -507, -23]  (76%)   <-- did not recover
+  run_20261122_104855_grid_x90_y75         end-start [-147, -26, 401]  peak [326, -117, -93]  (123%)   <-- did not recover
+  run_20261122_105210_grid_x120_y75        end-start [19, -87, 85]  peak [-127, 166, -298]  (29%)   <-- did not recover
+  run_20261122_105542_grid_x120_y75        end-start [-61, -227, 402]  peak [-236, 125, -108]  (170%)   <-- did not recover
+  run_20261122_105843_grid_x135_y75        end-start [19, -376, 469]  peak [-45, 96, -10]  (487%)   <-- did not recover
+
+Thermal runs (no temperature fibre: kept out of training, for characterisation):
+  axial common-mode sensitivity from the axial runs: -6.17 pm/g
+  run_20261121_191826_thermal_x0_y0: peak [121, 135, 130] pm, common mode +129 pm, looks like -20.9 g of axial load
+
+Rule 4: broken baseline (whole run)                0 rows removed 
+Rule 1: balance not stable                         3 rows removed 
+Rule 2: peak dropout                               0 rows removed 
+Rule 3: stiffness jump (bottomed out)              0 rows removed 
+Total                                              3 of 4985 rows removed, 4982 kept, 118 runs
+
+Split (runs): train=87, test=16, val=14, excluded=1
+
+Sign check (largest responding fibre by rotation, tilt >= 15 deg):
+  alpha    0.0 deg: largest shift on dlam_f2 (dlam_f1=+337.4, dlam_f2=-475.3, dlam_f3=+41.1 pm)
+  alpha   30.0 deg: largest shift on dlam_f1 (dlam_f1=+488.9, dlam_f2=-455.2, dlam_f3=-158.0 pm)
+  alpha   45.0 deg: largest shift on dlam_f3 (dlam_f1=+101.4, dlam_f2=-141.1, dlam_f3=-206.3 pm)
+  alpha   60.0 deg: largest shift on dlam_f1 (dlam_f1=+528.5, dlam_f2=-287.6, dlam_f3=-346.5 pm)
+  alpha   90.0 deg: largest shift on dlam_f3 (dlam_f1=+248.8, dlam_f2=+1.4, dlam_f3=-337.8 pm)
+  alpha  120.0 deg: largest shift on dlam_f3 (dlam_f1=+3.1, dlam_f2=+253.6, dlam_f3=-348.1 pm)
+  alpha  135.0 deg: largest shift on dlam_f2 (dlam_f1=-136.1, dlam_f2=+356.0, dlam_f3=-320.0 pm)
+  alpha  150.0 deg: largest shift on dlam_f2 (dlam_f1=-264.2, dlam_f2=+478.1, dlam_f3=-451.5 pm)
+  alpha  180.0 deg: largest shift on dlam_f2 (dlam_f1=-410.7, dlam_f2=+432.8, dlam_f3=-195.6 pm)
+  alpha  210.0 deg: largest shift on dlam_f1 (dlam_f1=-568.0, dlam_f2=+368.8, dlam_f3=+189.1 pm)
+  alpha  225.0 deg: largest shift on dlam_f1 (dlam_f1=-578.6, dlam_f2=+349.7, dlam_f3=+409.6 pm)
+  alpha  240.0 deg: largest shift on dlam_f1 (dlam_f1=-535.0, dlam_f2=+168.2, dlam_f3=+317.5 pm)
+  alpha  270.0 deg: largest shift on dlam_f3 (dlam_f1=-443.3, dlam_f2=-181.7, dlam_f3=+564.6 pm)
+  alpha  300.0 deg: largest shift on dlam_f3 (dlam_f1=-188.9, dlam_f2=-449.4, dlam_f3=+580.4 pm)
+  alpha  315.0 deg: largest shift on dlam_f2 (dlam_f1=-56.5, dlam_f2=-326.4, dlam_f3=+270.1 pm)
+  alpha  330.0 deg: largest shift on dlam_f2 (dlam_f1=+131.0, dlam_f2=-498.5, dlam_f3=+415.7 pm)
